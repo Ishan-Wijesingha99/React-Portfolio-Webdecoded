@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-      <p>Hello</p>
+      <p className='text-4xl font-bold font-signature'>Ishan</p>
   </React.StrictMode>
 )
 
