@@ -1,6 +1,7 @@
 
 import React from "react";
 import { About } from "./About";
+import { Contact } from "./Contact";
 import { Experience } from "./Experience";
 import { Home } from "./Home";
 import { Navbar } from "./Navbar";
@@ -16,13 +17,15 @@ export const App = function() {
 
             <Home />
 
-            <SocialLinks />
-
             <About />
 
             <Portfolio />
 
             <Experience />
+
+            <Contact />
+
+            <SocialLinks />
         </div>
     )
 }
