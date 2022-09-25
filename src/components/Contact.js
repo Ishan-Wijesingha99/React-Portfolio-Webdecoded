@@ -13,7 +13,11 @@ export const Contact = function() {
                 </div>
 
                 <div className="flex justify-center items-center">
-                    <form action="" className="flex flex-col w-full md:w-1/2">
+                    <form 
+                    action="https://getform.io/f/0904d584-4002-46db-b0f0-354c2b80e7a9" 
+                    method="POST"
+                    className="flex flex-col w-full md:w-1/2"
+                    >
                         <input
                         type="text"
                         name="name"
