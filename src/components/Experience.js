@@ -4,8 +4,6 @@ import html from '../assets/html.png'
 import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
 import reactImage from '../assets/react.png'
-import nextjs from '../assets/nextjs.png'
-import graphql from '../assets/graphql.png'
 import tailwind from '../assets/tailwind.png'
 import git from '../assets/git.png'
 import github from '../assets/github.png'
@@ -16,6 +14,16 @@ import bootstrap from '../assets/bootstrap.png'
 import jquery from '../assets/jquery.png'
 import handlebars from '../assets/handlebars.png'
 import mysql from '../assets/mysql.png'
+import sequelize from '../assets/sequelize.png'
+import jest from '../assets/jest.png'
+import insomnia from '../assets/insomnia.png'
+import postman from '../assets/postman.png'
+import vscode from '../assets/vscode.png'
+import materialize from '../assets/materialize.png'
+import heroku from '../assets/heroku.png'
+import figma from '../assets/figma.png'
+import mongoose from '../assets/mongoose.png'
+
 
 
 export const Experience = function() {
@@ -53,21 +61,9 @@ export const Experience = function() {
         },
         {
             id: 6,
-            src: nextjs,
-            title: 'Next JS',
-            style: 'shadow-gray-100'
-        },
-        {
-            id: 7,
-            src: graphql,
-            title: 'GraphQL',
-            style: 'shadow-pink-400'
-        },
-        {
-            id: 6,
             src: git,
             title: 'Git',
-            style: 'shadow-red-500'
+            style: 'shadow-red-600'
         },
         {
             id: 7,
@@ -116,6 +112,60 @@ export const Experience = function() {
             src: mysql,
             title: 'MySQL',
             style: 'shadow-cyan-500'
+        },
+        {
+            id: 15,
+            src: sequelize,
+            title: 'Sequelize',
+            style: 'shadow-blue-400'
+        },
+        {
+            id: 16,
+            src: jest,
+            title: 'Jest',
+            style: 'shadow-orange-700'
+        },
+        {
+            id: 17,
+            src: insomnia,
+            title: 'Insomnia',
+            style: 'shadow-violet-700'
+        },
+        {
+            id: 18,
+            src: postman,
+            title: 'Postman',
+            style: 'shadow-orange-600'
+        },
+        {
+            id: 19,
+            src: vscode,
+            title: 'Visual Studio Code',
+            style: 'shadow-sky-500'
+        },
+        {
+            id: 20,
+            src: materialize,
+            title: 'Materialize',
+            style: 'shadow-rose-300'
+        },
+        {
+            id: 21,
+            src: heroku,
+            title: 'Heroku',
+            style: 'shadow-violet-800'
+        },
+        {
+            id: 22,
+            src: figma,
+            title: 'Figma',
+            style: 'shadow-gray-600'
+        },
+        {
+            id: 23,
+            src: mongoose,
+            title: 'Mongoose',
+            style: 'shadow-red-800'
         },
     ]
 
