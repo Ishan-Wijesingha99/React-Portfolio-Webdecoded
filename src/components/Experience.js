@@ -183,7 +183,7 @@ export const Experience = function() {
                         techs.map(element => {
                             return (
                                 <div key={element.id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${element.style}`}>
-                                    <img src={element.src} className="w-20 mx-auto"/>
+                                    <img alt={element.title} src={element.src} className="w-20 mx-auto"/>
                                     <p className="mt-4">{element.title}</p>
                                 </div>
                             )
